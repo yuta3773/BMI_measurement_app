@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>BMI測定</h1>
-	<form action="/BMI_measurement_app/*" method="post">
+	<form action="/BMI_measurement_app/HealthCheck" method="post">
 		身長：<input type="text" name="height">(cm)<br> 
 		体重：<input type="text" name="weight">(kg)<br> 
 		<input type="submit" value="診断">

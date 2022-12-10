@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class Health implements Serializable{
 	private double height;
 	private double weight;
+	private double bmi;
 	private String bodyType;
 	
 	public double getHeight() {
@@ -26,5 +27,11 @@ public class Health implements Serializable{
 	}
 	public void setBodyType(String bodyType) {
 		this.bodyType = bodyType;
+	}
+	public double getBmi() {
+		return bmi;
+	}
+	public void setBmi(double bmi) {
+		this.bmi = bmi;
 	}
 }
